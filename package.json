@@ -1,0 +1,25 @@
+{
+  "name": "hn",
+  "version": "0.1.0",
+  "description": "A better visualization of Hacker News built with React",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/grvcoelho/hn.git"
+  },
+  "keywords": [
+    "react",
+    "hn",
+    "hacker-news",
+    "api"
+  ],
+  "author": "Guilherme Rv Coelho <@grvcoelho>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/grvcoelho/hn/issues"
+  },
+  "homepage": "https://github.com/grvcoelho/hn#readme"
+}
