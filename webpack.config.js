@@ -1,3 +1,5 @@
+var rucksack = require('rucksack-css');
+var cssnext = require('cssnext');
 var path = require('path');
 
 module.exports = {
@@ -13,7 +15,22 @@ module.exports = {
     },
     module: {
         loaders: [
-            { test: /\.css$/, loaders: ['style-loader', 'css-loader'] }
+            {
+                test: /\.css$/,
+                loaders: [
+                    'style-loader',
+                    'css-loader?modules&importLoaders=1',
+                    'postcss-loader'
+                ]
+            }
         ]
+    },
+    postcss: function() {
+        return [
+            cssnext,
+            rucksack({
+                autoprefixer: true
+            })
+        ];
     }
 };
