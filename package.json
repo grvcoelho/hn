@@ -4,7 +4,8 @@
   "description": "A better visualization of Hacker News built with React",
   "main": "index.js",
   "scripts": {
-    "test": "test"
+    "test": "test",
+    "start": "webpack-dev-server -d --history-api-fallback --hot --inline --progress --colors --port 3000"
   },
   "repository": {
     "type": "git",
