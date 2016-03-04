@@ -16,6 +16,12 @@ module.exports = {
     module: {
         loaders: [
             {
+                test: /\.html$/,
+                loaders: [
+                    'file?name=[name].[ext]'
+                ]
+            },
+            {
                 test: /\.(js|jsx)$/,
                 exclude: /node_modules/,
                 loaders: [
