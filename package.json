@@ -1,7 +1,7 @@
 {
-  "name": "hn",
+  "name": "pipeline",
   "version": "0.1.0",
-  "description": "A better visualization of Hacker News built with React",
+  "description": "A tool for better tracking your github issues and milestones",
   "main": "index.js",
   "scripts": {
     "test": "test",
@@ -9,20 +9,20 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/grvcoelho/hn.git"
+    "url": "git+https://github.com/grvcoelho/pipeline.git"
   },
   "keywords": [
     "react",
-    "hn",
+    "pipeline",
     "hacker-news",
     "api"
   ],
   "author": "Guilherme Rv Coelho <@grvcoelho>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/grvcoelho/hn/issues"
+    "url": "https://github.com/grvcoelho/pipeline/issues"
   },
-  "homepage": "https://github.com/grvcoelho/hn#readme",
+  "homepage": "https://github.com/grvcoelho/pipeline#readme",
   "devDependencies": {
     "babel-core": "^6.5.2",
     "babel-loader": "^6.2.4",

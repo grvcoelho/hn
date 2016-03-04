@@ -1,2 +1,2 @@
-# hn
-A better visualization of Hacker News built with React
+# pipeline
+A tool for better tracking your github issues and milestones
