@@ -14,6 +14,15 @@ module.exports = {
         filename: 'bundle.js'
     },
     module: {
+        preLoaders: [
+            {
+                test: /\.(js|jsx)$/,
+                exclude: /node_modules/,
+                loaders: [
+                    'eslint-loader'
+                ]
+            }
+        ],
         loaders: [
             {
                 test: /\.html$/,
