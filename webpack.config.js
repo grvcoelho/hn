@@ -1,3 +1,4 @@
+var webpack = require('webpack');
 var rucksack = require('rucksack-css');
 var cssnext = require('cssnext');
 var path = require('path');
@@ -6,8 +7,7 @@ module.exports = {
     context: path.join(__dirname, './app'),
     entry: {
         jsx: './index.js',
-        html: './index.html',
-        vendor: ['react']
+        html: './index.html'
     },
     output: {
         path: path.join(__dirname, './build'),
