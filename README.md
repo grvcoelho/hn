@@ -1,2 +1,2 @@
-# pipeline
-A tool for better tracking your github issues and milestones
+# spotify
+A simple spotify client built with React and Redux
