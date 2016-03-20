@@ -1,5 +1,5 @@
 {
-  "name": "pipeline",
+  "name": "spotify",
   "version": "0.1.0",
   "description": "A tool for better tracking your github issues and milestones",
   "main": "index.js",
@@ -10,20 +10,20 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/grvcoelho/pipeline.git"
+    "url": "git+https://github.com/grvcoelho/spotify.git"
   },
   "keywords": [
     "react",
-    "pipeline",
+    "spotify",
     "hacker-news",
     "api"
   ],
   "author": "Guilherme Rv Coelho <@grvcoelho>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/grvcoelho/pipeline/issues"
+    "url": "https://github.com/grvcoelho/spotify/issues"
   },
-  "homepage": "https://github.com/grvcoelho/pipeline#readme",
+  "homepage": "https://github.com/grvcoelho/spotify#readme",
   "devDependencies": {
     "babel-core": "^6.5.2",
     "babel-eslint": "^5.0.0",
